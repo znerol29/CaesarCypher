@@ -24,11 +24,11 @@ elif type == "Skytale":
 
   if action == "Dekodieren":
     print("Decode")
-    os.system("python sdecode.py")
+    os.system("python ddecode.py")
     
   elif action == "Enkodieren":
     print("Encode")
-    os.system('python sencode.py')
+    os.system('python dencode.py')
 
   elif action == "Cancel":
     os.system('python main.py')
